@@ -3,58 +3,55 @@
     src: url(Sk-Modernist/Sk-Modernist-Regular.otf);
 }
 
-
-*,body{
+*,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: myfont1;
 }
 
-.header{
+.header {
     position: fixed;
     background-color: white;
     width: 100%;
     padding: 17px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 10000;
 }
 
-.navlinks{
+.navlinks {
     display: flex;
     width: 100%;
     align-items: center;
     padding: 5px;
     justify-content: space-evenly;
     gap: 30px;
-    
 }
 
-
-
-.links{
+.links {
     display: flex;
     gap: 35px;
     align-items: center;
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: black;
 }
 
-
-.twosections{
+.twosections {
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100vh;
     padding: 30px;
-
 }
 
-.section1{
+.section1 {
     display: flex;
     width: 100%;
     justify-content: flex-start;
@@ -62,31 +59,29 @@ body{
     justify-content: center;
 }
 
-.assets{
-
+.assets {
     width: 95%;
     justify-self: flex-start;
     padding-left: 50px;
     margin-top: 50px;
 }
 
-.section1 h1{
+.section1 h1 {
     font-weight: 800;
     font-size: 60px;
     padding-left: 30px;
 }
 
-.section1 h2{
-width: 60%;
-display: flex;
-padding-left: 30px;
-font-size: 20px;
-padding-top: 10px;
-font-weight: lighter;
+.section1 h2 {
+    width: 60%;
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: lighter;
 }
 
-
-.section1 button{
+.section1 button {
     background-color: rgb(0, 0, 0);
     color: white;
     width: 200px;
@@ -101,18 +96,18 @@ font-weight: lighter;
     transition: 0.5s;
 }
 
-.section1 button:hover{
+.section1 button:hover {
     background-color: white;
     color: black;
 }
 
-.signin:hover{
+.signin:hover {
     background-color: black;
     color: white;
     border: 1px solid #fff;
 }
 
-.signin{
+.signin {
     width: 120px;
     display: flex;
     justify-content: center;
@@ -120,72 +115,71 @@ font-weight: lighter;
     padding: 5px;
     border: 1px solid #ccc;
     text-decoration: none;
-color: black;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: -0.01em;
-transition: 0.5s;
-
+    color: black;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    transition: 0.5s;
 }
-.section2{
+
+.section2 {
     display: flex;
     width: 100%;
     background-image: url(image\ 4.png);
-    background-size:auto;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
 }
 
-.sectiontag{
+.sectiontag {
     width: 100%;
-    background-color: #FFE661;
+    background-color: #ffe661;
     color: black;
     padding: 10px;
     text-align: center;
 }
 
-.sectiontag p{
+.sectiontag p {
     font-size: 20px;
     font-weight: bold;
 }
 
-.text h1{
+.text h1 {
     justify-content: center;
     display: flex;
     font-size: 40px;
     margin-top: 70px;
     margin-left: 30px;
-
 }
 
-.middlesection{
+.middlesection {
     margin-top: 50px;
     display: flex;
     width: 100%;
     height: 70vh;
 }
 
-.sec1{
+.sec1 {
     width: 100%;
     height: fit-content;
     padding: 20px;
-    
 }
 
 .sec1:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     transition: 0.4s;
-  }
-
-.div1 h1, .div2 h1, .div3 h1{
-    font-size: 30px;
-
 }
 
-.div1 h2{
+.div1 h1,
+.div2 h1,
+.div3 h1 {
+    font-size: 30px;
+}
+
+.div1 h2 {
     font-size: 15px;
     width: 45%;
     margin-left: auto;
@@ -193,7 +187,7 @@ transition: 0.5s;
     font-weight: lighter;
 }
 
-.div2 h2{
+.div2 h2 {
     font-size: 15px;
     width: 40%;
     margin-left: auto;
@@ -201,7 +195,7 @@ transition: 0.5s;
     font-weight: lighter;
 }
 
-.div3 h2{
+.div3 h2 {
     font-size: 15px;
     width: 45%;
     margin-left: auto;
@@ -209,79 +203,81 @@ transition: 0.5s;
     font-weight: lighter;
 }
 
-.sec1 img{
+.sec1 img {
     width: 100%;
     height: 227px;
-    object-fit: contain;  
+    object-fit: contain;
 }
 
-.sec3 img{
+.sec3 img {
     width: 100%;
     height: 238px;
-    object-fit: contain;  
+    object-fit: contain;
 }
 
-
-.sec2 img{
+.sec2 img {
     width: 100%;
     height: 245px;
     object-fit: contain;
 }
 
-.sec2{
+.sec2 {
     width: 100%;
     height: fit-content;
-padding: 20px;
-
+    padding: 20px;
 }
 
 .sec2:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     transition: 0.4s;
-  }
+}
 
-.sec3{
+.sec3 {
     width: 100%;
     height: fit-content;
     padding: 20px;
-    
 }
 
 .sec3:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     transition: 0.4s;
-  }
+}
 
-.sec4, .sec5, .sec6{
+.sec4,
+.sec5,
+.sec6 {
     width: 100%;
     padding: 10px;
 }
 
-.sec4 img, .sec5 img, .sec6 img{
+.sec4 img,
+.sec5 img,
+.sec6 img {
     width: 100%;
     height: 200px;
     object-fit: contain;
 }
 
-.sec7, .sec8, .sec9{
+.sec7,
+.sec8,
+.sec9 {
     width: 100%;
     padding: 10px;
 }
 
-.sec7 img, .sec8 img, .sec9 img{
+.sec7 img,
+.sec8 img,
+.sec9 img {
     width: 100%;
     height: 200px;
     object-fit: contain;
 }
 
-
-
-
-.div1{
+.div1 {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -289,26 +285,25 @@ padding: 20px;
     padding: 20px;
 }
 
-
-.div2{
+.div2 {
     text-align: center;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.div3{
+.div3 {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
 }
 
-.divcontainer{
+.divcontainer {
     display: flex;
 }
 
-.discoversection{
+.discoversection {
     width: 100%;
     color: black;
     padding: 10px;
@@ -317,24 +312,32 @@ padding: 20px;
     justify-content: center;
 }
 
-.discoversection p{
+.discoversection p {
     font-size: 50px;
     font-weight: bold;
     width: 60%;
 }
 
-.imagessection{
+.imagessection {
     display: flex;
     width: 100%;
     margin-top: 20px;
-    
-
-
+    position: relative;
 }
 
+.imagessection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 180deg, rgba(217, 217, 217, 0) 70%, #ffffff 100%);
+    pointer-events: none;
+}
 
-.viewmore{
-    width:130px;
+.viewmore {
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,42 +353,31 @@ padding: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-
+    position: relative;
 }
 
-
-
-
-.footersection{
+.footersection {
     display: flex;
-    margin-top: 20px;
     background-image: url(Frame\ 96.png);
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    
 }
 
-
-.footerimage h1{
-   color: white;
-  
-
-}
-.footerbutton{
-    display:flex;
-justify-content: center;
-
-
+.footerimage h1 {
+    color: white;
 }
 
-.footerbutton p{
-    width:170px;
+.footerbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.footerbutton p {
+    width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,34 +390,31 @@ justify-content: center;
     margin-top: 30px;
 }
 
-.footertext{
+.footertext {
     display: flex;
     background: black;
     width: 100%;
     height: 30vh;
 }
 
-.footersections{
+.footersections {
     display: flex;
     width: 100%;
     padding: 20px;
     justify-content: center;
 }
 
-.ftext1{
+.ftext1 {
     display: flex;
     width: 100%;
-    height: 200px;
-  
 }
 
-.ftext2{
+.ftext2 {
     display: flex;
     width: 100%;
-    height: 200px;
 }
 
-.details{
+.details {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -433,21 +422,19 @@ justify-content: center;
     text-align: center;
 }
 
-
-.details h1{
-font-size: 25px;
-padding-left: 80px;
-color: white;
-
+.details h1 {
+    font-size: 25px;
+    padding-left: 80px;
+    color: white;
 }
 
-.details h2{
+.details h2 {
     font-size: 12px;
     padding-left: 120px;
     color: white;
 }
 
-.detailstwo{
+.detailstwo {
     margin-right: 50px;
     display: flex;
     justify-content: center;
@@ -457,7 +444,8 @@ color: white;
     text-align: center;
     margin-left: auto;
 }
-.detailstwo p{
+
+.detailstwo p {
     font-size: 12px;
     color: white;
 }
